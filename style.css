@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109.6deg, rgb(253, 199, 141) 11.3%, rgb(249, 143, 253) 100.2%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#card {
+    height: 400px;
+    width: 280px;
+    background: linear-gradient(109.6deg, rgb(120, 212, 234) 11.2%, rgb(216, 226, 253) 72.1%);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+#card img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    object-position: center;
+}
+
+#card h1 {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 800;
+}
+#card #heading-rqest {
+    color: #091f36;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#card p {
+    font-size: 27px;
+    font-weight: 800;
+    color: red;
+    margin: 10px 0;
+}
+
+#card button {
+    background-color: #0866FF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
+    cursor: pointer;
+}
+#card #add-btn:hover{
+    background-color: #007bffce;
+}
+
+#btn #remove-btn{
+    display: none; 
+    background-color: #fff9f9;
+    color: #111;
+    cursor: pointer;
+    margin-right: 10px;
+    font-weight: 800;
+}
+
+#card #remove-btn:hover{
+    background-color: #dadada;
+}
